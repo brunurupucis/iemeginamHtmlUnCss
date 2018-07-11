@@ -1,1 +1,26 @@
+body {
+  font-family: Helvetica Neue, Arial;
+  font-size:18px;
+}
 
+h1, h2 {
+  color: #00960b;
+}
+
+h1 {
+  font-size:40px;
+}
+
+h2 {
+  font-size:25px;
+}
+
+/* class can be atributed to all elements but id only to one element */
+
+.main-text { /* . is for class element */
+  text_-align: justify;
+}
+
+.author-text{  /* # is for id element */
+  font-size: 22px; 
+}
