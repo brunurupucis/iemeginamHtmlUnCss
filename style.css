@@ -18,7 +18,7 @@ h2 {
 /* class can be atributed to all elements but id only to one element */
 
 .main-text { /* . is for class element */
-  text_-align: justify;
+  text-align: justify;
 }
 
 .author-text{  /* # is for id element */
