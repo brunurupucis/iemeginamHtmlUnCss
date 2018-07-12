@@ -1,7 +1,7 @@
 * {   /* all elements affected with * signe */
   margin: 0;  /* white space between boxes */
   padding: 0;
-  box-sizing: border box;
+  box-sizing: border-box;
   
 }
 
@@ -13,7 +13,7 @@
 
 body {
   font-family: Helvetica Neue, Arial;
-  font-size:18px;
+  font-size: 18px;
 }
 
 h1, h2 {
@@ -42,7 +42,8 @@ h2 {
 }
 
 .container {
-    /*width: 1140px;
+    width: 1140px; /* without this txt staying in left size */
+    /*
     margin-left: auto;
     margin-right: auto;
     margin-right: 20px; the same think */
@@ -65,7 +66,7 @@ h2 {
 }
 
 .author-box {
- /*background-color: #ffff00; */
+  /*background-color: #ffff00; */
   padding-top: 20px;
   border-top: 1px solid #808080;
   
