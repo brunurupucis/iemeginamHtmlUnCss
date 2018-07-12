@@ -4,6 +4,13 @@
   box-sizing: border box;
   
 }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
   font-family: Helvetica Neue, Arial;
   font-size:18px;
@@ -33,22 +40,35 @@ h2 {
 .author-text{  /* # is for id element */
   font-size: 22px; 
 }
+
 .container {
-    width: 1140px;
+    /*width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    margin-right: 20px; the same think */
+    margin: 20px auto 0 auto;      /*top right bottom left ;*/
 }
 
 .blog-post {
-  background-color: #0000ff; 
+  /*background-color: #0000ff; */
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+
 }
 
 .other-posts {
-  background-color: #00ff00; 
+  /*background-color: #00ff00; */
+  width: 25%;
+  float: left; /* moving box left */
+  
 }
 
 .author-box {
-  background-color: #ffff00; 
+ /*background-color: #ffff00; */
+  padding-top: 20px;
+  border-top: 1px solid #808080;
+  
 }
 /*
 Content - text, image etc. 
@@ -57,3 +77,4 @@ Border - goes around the padding and content.
 Margin- space between boxes.
 
 */
+/* */
