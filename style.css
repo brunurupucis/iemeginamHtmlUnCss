@@ -1,3 +1,9 @@
+* {   /* all elements affected with * signe */
+  margin: 0;  /* white space between boxes */
+  padding: 0;
+  box-sizing: border box;
+  
+}
 body {
   font-family: Helvetica Neue, Arial;
   font-size:18px;
@@ -9,18 +15,45 @@ h1, h2 {
 
 h1 {
   font-size:40px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size:25px;
+  margin-bottom: 10px;
 }
 
 /* class can be atributed to all elements but id only to one element */
 
 .main-text { /* . is for class element */
   text-align: justify;
+  margin-bottom: 20px;
 }
 
 .author-text{  /* # is for id element */
   font-size: 22px; 
 }
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-post {
+  background-color: #0000ff; 
+}
+
+.other-posts {
+  background-color: #00ff00; 
+}
+
+.author-box {
+  background-color: #ffff00; 
+}
+/*
+Content - text, image etc. 
+Padding - transparent area around content, insyde of the box.
+Border - goes around the padding and content.
+Margin- space between boxes.
+
+*/
