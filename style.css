@@ -1,5 +1,5 @@
-* {   /* all elements affected with * signe */
-  margin: 0;  /* white space between boxes */
+* {   
+  margin: 0; 
   padding: 0;
   box-sizing: border-box;
   
@@ -30,28 +30,25 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* class can be atributed to all elements but id only to one element */
 
-.main-text { /* . is for class element */
+
+.main-text { 
   text-align: justify;
   margin-bottom: 20px;
 }
 
-.author-text{  /* # is for id element */
+.author-text{ 
   font-size: 22px; 
 }
 
 .container {
-    width: 1140px; /* without this txt staying in left size */
-    /*
-    margin-left: auto;
-    margin-right: auto;
-    margin-right: 20px; the same think */
-    margin: 20px auto 0 auto;      /*top right bottom left ;*/
+    width: 1140px; 
+
+    margin: 20px auto 0 auto;      
 }
 
 .blog-post {
-  /*background-color: #0000ff; */
+  
   width: 75%;
   float: left;
   padding-right: 30px;
@@ -59,23 +56,16 @@ h2 {
 }
 
 .other-posts {
-  /*background-color: #00ff00; */
+ 
   width: 25%;
-  float: left; /* moving box left */
+  float: left;
   
 }
 
 .author-box {
-  /*background-color: #ffff00; */
+  
   padding-top: 20px;
   border-top: 1px solid #808080;
   
 }
-/*
-Content - text, image etc. 
-Padding - transparent area around content, insyde of the box.
-Border - goes around the padding and content.
-Margin- space between boxes.
 
-*/
-/* */
